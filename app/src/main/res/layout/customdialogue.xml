@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="15dp">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/katibuumar"
+
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About the App"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="1dp"
+        android:textColor="@android:color/white"
+       />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This app is sponsored and developed by Umar Katibu to help make BUK a better place and make life a bit easier to all my colleaques in BUK."
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+           />
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:text="WhatsApp Me"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/whatsappme"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:text="OK"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/close"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+           />
+
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
